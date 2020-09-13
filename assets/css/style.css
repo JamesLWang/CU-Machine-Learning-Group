@@ -7,6 +7,10 @@
 
 /*--------------------------------------------------------------
 # General
+# dark blue: 092E86
+# blue: 5373DF
+# light blue: 92B4F4
+# off-white: ECF1FE
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -14,11 +18,11 @@ body {
 }
 
 a {
-  color: #43aea0;
+  color: #5373DF;
 }
 
 a:hover {
-  color: #00d3b8;
+  color: #92B4F4;
   text-decoration: none;
 }
 
@@ -37,7 +41,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #70b9b0;
+  background: #5373DF;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +56,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .back-to-top:hover {
   color: #fff;
-  background: #8bc6bf;
+  background: #92B4F4;
   transition: background 0.2s ease-in-out;
 }
 
@@ -65,11 +69,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #2d6760;
+  background: #5373DF;
 }
 
 #header.header-scrolled {
-  background: #1d443f;
+  background: #092E86;
   height: 60px;
   padding: 10px 0;
 }
@@ -223,7 +227,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #01292a;
+  background: #092E86;
   transition: 0.4s;
 }
 
@@ -328,7 +332,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero:before {
   content: "";
-  background: rgba(112, 185, 176, 0.85);
+  background: rgba(146, 180, 244, 0.85);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -365,6 +369,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 300;
 }
 
+#hero h4 {
+  color: #092E86;
+}
+
 #hero .btn-get-started {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -380,8 +388,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #70b9b0;
-  border: 1px solid #70b9b0;
+  color: #92B4F4;
+  border: 1px solid #92B4F4;
 }
 
 @media (min-width: 1024px) {
@@ -410,7 +418,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f9f8;
+  background-color: #ECF1FE;
 }
 
 .section-title {
@@ -860,12 +868,12 @@ section {
 }
 
 .team .member .social a {
-  color: #92cac3;
+  color: #92B4F4;
   transition: 0.3s;
 }
 
 .team .member .social a:hover {
-  color: #3c8b81;
+  color: #5373DF;
 }
 
 .team .member .social i {
@@ -1038,7 +1046,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #073839;
+  background: #092E86;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
